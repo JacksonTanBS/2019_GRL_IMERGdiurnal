@@ -882,6 +882,9 @@ if 'BiennialChange' in options:
     plt.close()
 
 
+#--- Not used ---#
+
+
 if 'LakeVictoria' in options:
 
     import itertools
@@ -938,9 +941,6 @@ if 'LakeVictoria' in options:
 
     plt.savefig('sfig.LakeVictoria.%s' % figtype)
     plt.close()
-
-
-#--- Not used ---#
 
 
 if 'GlobalPeak' in options:
